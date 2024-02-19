@@ -1,16 +1,6 @@
 public class Cat extends Animal {
-
-    public Cat(String catNoise) {
-        super(catNoise);
+    @Override
+    public void makeNoise() {
+        System.out.println("Meow");
     }
 }
-/*private String catNoise;
-
-public Cat(String catNoise) {
-    this.catNoise = catNoise;
-}
-
-public void makeNoise() {
-    System.out.println("The CAT noise is: " + this.catNoise);
-}
-}*/

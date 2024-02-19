@@ -6,9 +6,9 @@ e di Gatto.*/
 
 public class Main {
     public static void main(String[] args) {
-        Animal bird = new Animal("tweet");
-        Cat cat = new Cat("meow");
-        bird.makeNoise();
+        Animal dog = new Animal();
+        Cat cat = new Cat();
+        dog.makeNoise();
         cat.makeNoise();
     }
 }
